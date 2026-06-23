@@ -1,0 +1,48 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%; 
+  height: 100%;
+  text-align: center;
+}
+
+#map {
+ height: 100%;
+ width: 100%;  
+}
+h3{
+   color:rgb(85, 91, 97)
+}
+aside {
+background-color: rgb(159, 154, 172);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 10px;
+  width:218px;
+  height:270px;
+  
+}
+span{
+  color:rgba(196, 6, 6, 0.993);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4rem;
+}
+
+.butt{
+  display: block;
+  margin: 8px auto 0 auto;
+  width:200px;
+  padding:9px;
+  background-color: rgb(219, 26, 84);
+  color: rgb(238, 204, 215);
+  font-size:medium;
+  border-radius: 18px;
+  border:none;
+  cursor: pointer;
+  transition: background-color 0.2s ease , box-shadow 0.2s ease;
+}
+.butt:hover{
+  background-color: rgb(247, 8, 107);
+  box-shadow:8px 4px 8px rgb(30, 51, 65)  ;
+}

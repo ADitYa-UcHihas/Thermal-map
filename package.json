@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "maplibre-gl": "^5.24.0",
+    "vite": "^8.0.16"
+  }
+}
